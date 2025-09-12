@@ -1,6 +1,8 @@
 ## Rules Comparison
 
-We examined the differences between our approach and four SOTA methods in terms of three aspects: the adversarial example generation techniques, the inclusion of interpretability analysis, and the initial attack target. The analysis results are summarized in Table \ref{Table 8}. 
+We examined the differences between our approach and four SOTA methods in terms of three aspects: the adversarial example generation techniques, the inclusion of interpretability analysis, and the initial attack target. The analysis results are summarized in following table: 
+
+![](https://github.com/DataAvailable/STAttack/blob/main/Figures/Rules.png?raw=true)
 
 Firstly, in terms of adversarial example generation techniques, the MHM and ALERT methods generate adversarial examples solely through identifier renaming. The CARROT method extends this by incorporating method renaming and code statement optimization, while CODA further refines this by adding replacements for loops, conditional statements, and constants. In comparison to these methods, our approach considers a broader range of code synonymous transformation techniques when generating adversarial examples, such as code execution order, junk code insertion, and statement redefinition, among others. 
 
